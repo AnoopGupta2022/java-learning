@@ -16,7 +16,7 @@ public class UserManagement {
         Optional<Response> response1 = users.findUserById(3);
         Optional<Response> response2 = users.findUserById(6);
         System.out.println("Status: " + (response1.isEmpty() ? "404" : response1.get().getStatusCode()) + " , Message " + (response1.isEmpty() ? "Not Found" : response1.get().getMessage()));
-        System.out.println("Status: " + (response2.isEmpty() ? "404" : response2.get().getStatusCode()) + " ,  Message " + (response2.isEmpty() ? "Not Found" : response2.get().getMessage()));
+        //System.out.println("Status: " + (response2.isEmpty() ? "404" : response2.get().getStatusCode()) + " ,  Message " + (response2.isEmpty() ? "Not Found" : response2.get().getMessage()));
 
     }
 
