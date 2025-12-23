@@ -12,6 +12,7 @@ public class UserManagement {
         users.addUser(new User(3, "Charlie"));
         users.addUser(new User(4, "Anoop"));
         users.addUser(new User(5, "Amit"));
+        users.addUser(new User(6, "Nitin"));
        // System.out.println("Update Status: " + (users.updateNameById(3, "New Charlie") ? "Success" : "Failure"));
         Optional<Response> response1 = users.findUserById(3);
         Optional<Response> response2 = users.findUserById(6);
