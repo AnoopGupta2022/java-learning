@@ -1,6 +1,2 @@
 #This is a product management service
-<<<<<<< HEAD
-This is the change in product service in git local
-=======
 The change is in product service in git hub directly
->>>>>>> 47270860301462409e87ba6debd1a923cb2cd47a
